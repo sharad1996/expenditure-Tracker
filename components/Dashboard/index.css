@@ -1,0 +1,134 @@
+.dashboard-container {
+    background-color: #00296b;
+    height: 80vh;
+}
+
+.main-content {
+    display: flex;
+    gap: 20px;
+}
+
+.intro-section {
+    margin-top: 8rem;
+    margin-left: 8rem;
+    color: white;
+}
+
+.intro-title {
+    font-weight: 1000;
+}
+
+.intro-subtitle {
+    font-weight: 1000;
+    letter-spacing: 3px;
+}
+
+.intro-description {
+    color: white;
+}
+
+.button-group {
+    width: 17vw;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.demo-button {
+    border-radius: 30px;
+    padding: 15px 25px;
+    background: cyan;
+    color: black;
+}
+
+.download-button {
+    border-radius: 30px;
+    padding: 5px 25px;
+    color: white;
+    margin-right: 10px;
+    border: 1px solid white;
+}
+
+.image-section {
+    margin-left: 15rem;
+}
+
+.dashboard-image {
+    max-height: 600px;
+    width: 950px;
+}
+
+.featured-section {
+    width: 70vw;
+    height: 17rem;
+    background: #f9e4bc;
+    position: absolute;
+    top: 39rem;
+    left: 17%;
+    border-radius: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.featured-content {
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.featured-title {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.featured-description {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+.platforms {
+    display: flex;
+    justify-content: space-around;
+}
+
+.platform {
+    font-size: 1.5rem;
+}
+
+.download-stats {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    top: 100%;
+    left: 20rem;
+    position: absolute;
+}
+
+.stat {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.stat-icon {
+    background: #e18b6b;
+    position: relative;
+    top: 70px;
+    width: 74px;
+    height: 74px;
+    border-radius: 55px;
+    z-index: -1;
+}
+
+.stat-value {
+    font-weight: bold;
+}
+
+.stat-label {
+    font-size: 16px;
+}
+
+
+/* Add styles for other sections similarly */
