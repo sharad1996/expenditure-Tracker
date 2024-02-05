@@ -1,8 +1,17 @@
+<!-- @format -->
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
-First, run the development server:
+First of all clone the project
+node version must be >= 18.17.0.
+run command npm install .
+then run command npm run dev .
+open browser localhost:3000
+there will be webapp and on /expensetracker route there is expenditure tracker app . you need to add this route manually in url http://localhost:3000/expensetracker
+
+run the development server:
 
 ```bash
 npm run dev

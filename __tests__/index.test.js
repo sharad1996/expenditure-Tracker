@@ -2,7 +2,7 @@
 
 import React from "react";
 import { render, fireEvent, screen } from "@testing-library/react";
-import TransactionForm from "../pages/expensetracker/TransactionForm";
+import { TransactionForm } from "../pages/expensetracker/TransactionForm";
 import "@testing-library/jest-dom";
 
 describe("TransactionForm", () => {
